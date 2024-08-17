@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: mediumseagreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.registrationDiv{
+    background-color: rgba(128, 128, 128, 0.33);
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+}
+
+.registrationDiv div{
+    height: 20px;
+    margin-top: 50px;
+}
+
+
+.registrationDiv input{
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+label{
+    color: white;
+}
+
+.subButton{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
